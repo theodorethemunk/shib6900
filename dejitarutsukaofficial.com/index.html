@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHIBA 6900</title>
+
+    <meta content="SHIBA 6900" name="description">
+    <meta content="SHIBA 6900" property="og:title">
+    <meta content="Shiba6900 is a groundbreaking cryptocurrency project that combines the charm of the Shiba Inu meme with cutting-edge blockchain technology" property="og:description">
+    <meta content="Shiba 6900" property="twitter:title">
+    <meta content="Shiba6900 is a groundbreaking cryptocurrency project that combines the charm of the Shiba Inu meme with cutting-edge blockchain technology" property="twitter:description">
+    <meta property="og:type" content="website">
+    <meta content="summary_large_image" name="twitter:card">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta property="og:image" content="logo.png" />
+
+    <link rel="manifest" href="public/frontend/images/site.webmanifest">
+    <!-- UIkit CSS -->
+
+    <link href="https://unpkg.com/aos%402.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="cdn.jsdelivr.net/npm/uikit%403.8.0/dist/css/uikit.min.css" />
+    <!-- UIkit JS -->
+    <script src="cdn.jsdelivr.net/npm/uikit%403.8.0/dist/js/uikit.min.js"></script>
+    <script src="cdn.jsdelivr.net/npm/uikit%403.8.0/dist/js/uikit-icons.min.js"></script>
+    <script src="kit.fontawesome.com/54381b41ce.js"></script>
+    <script src="use.fontawesome.com/221c060619.js"></script>
+    <link rel="stylesheet" href="public/frontend/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&amp;family=Montserrat:wght@100;800;&amp;family=Poppins:wght@300;500;700&amp;display=swap" rel="stylesheet">
+
+    <link rel="apple-touch-icon" href="logo.png">
+    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
+</head>
+<style>
+    @font-face {
+        font-family: 'Japa';
+        src: url(j.ttf);
+    }
+
+    @media (max-width: 700px) {
+        .top-margin {
+            margin-top: -25px !important;
+        }
+        .roadmap_banner {
+            background: none !important;
+        }
+    }
+
+    .features::after {
+        content: '';
+        background: url(public/frontend/images/logo-bg.png);
+        position: absolute;
+        top: -200px;
+        left: -680px;
+        width: 1051px;
+        height: 1051px;
+        z-index: 9;
+    }
+
+    .contact_button_before::before {
+        content: '';
+        background-image: url(public/frontend/images/nav_arrow.png);
+        width: 30px;
+        height: 10px;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 23px;
+        right: 32px;
+    }
+
+    .vertical_bar {
+        background-image: url('public/frontend/images/bar_table_banner.png');
+        background-color: #12121b;
+        background-size: 80%;
+        background-repeat: no-repeat;
+    }
+
+    .questions_by_year {
+        background-image: url('public/frontend/images/roadmap_banner.html');
+        background-repeat: inherit;
+    }
+
+    .features-of- {
+        background: url(public/frontend/images/features_banner.png);
+        background-size: 71%;
+        background-position: 388px 0px;
+        background-repeat: no-repeat;
+    }
+
+    .Index-banner {
+        background-image: url(public/frontend/images/banner.png) !important;
+        background-position: bottom;
+        background-size: 130% !important;
+    }
+
+    .uk-list-style_roadmap {
+        list-style-image: url("public/frontend/images/tick.png");
+    }
+
+    .roadmap_banner {
+        background-image: url('public/frontend/images/roadmap.html');
+    }
+
+    .footer_banner {
+        background-image: url('public/frontend/images/footer_waves.png');
+    }
+
+    .tockenomics_banner {
+        background-image: url('public/frontend/images/tockenomics-bg.png');
+        background-size: 58%;
+    }
+
+    /* .active,.uk-navbar-nav>li>a, .uk-navbar-nav>li:hover>a {
+    color: #F39D3B !important;
+    font-weight: 500;
+} */
+</style>
+
+<body style="background-color:black;background-size: 100% 100%;">
+
+    <style>
+        .kkkkkk {
+            opacity: .6;
+            -o-object-fit: cover;
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+            bottom: 0px;
+            right: 0px;
+            left: 0px;
+            top: 0px;
+            position: fixed;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            gap: 50px;
+        }
+
+        .grid-item {
+            padding: 20px;
+            font-size: 30px;
+            text-align: center;
+        }
+
+        .sads {
+            margin: 300px 0px;
+        }
+
+        .container {
+            width: 70%;
+            margin: 0 auto;
+        }
+
+        @media (max-width:500px) {
+            .container {
+                width: 100%;
+                margin: 0 auto;
+            }
+            .grid-container {
+                grid-template-columns: 1fr 1fr;
+            }
+            .sads {
+                margin-top: 50px;
+            }
+        }
+
+        .bg-fixed {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            background-position: 50%;
+            top: 0;
+            right: 0;
+            z-index: 0;
+        }
+
+        .btn {
+            text-decoration: none;
+            border: 1px solid rgb(146, 248, 148);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .btn:hover {
+            box-shadow: 1px 1px 25px 10px rgba(146, 248, 148, 0.4);
+        }
+
+        .btn:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(120deg, transparent, rgba(146, 248, 148, 0.4), transparent);
+            transition: all 650ms;
+        }
+
+        .btn:hover:before {
+            left: 100%;
+        }
+
+        .asdasdasdasdas {
+            width: 450px
+        }
+
+        @media (max-width:450px) {
+            .asdasdasdasdas {
+                width: 300px;
+            }
+        }
+    </style>
+
+    <!-- <div class="bg-fixed"></div> -->
+
+
+    <section class="container" style="padding-top:50px;padding-bottom: 20px;">
+        <center>
+            <img data-aos="zoom-in" data-aos-duration="1000" style="padding-top:20px;border-radius: 50%;" src="logo.png" class="asdasdasdasdas" />
+            <br />
+            <img data-aos="zoom-in" data-aos-duration="1000" class="asdasdasdasdas" style="padding-top:20px;margin-top:40px" src="Dejitaru+Tsuka+Web+Background-01 (2).png" />
+        </center>
+
+    </section>
+    <div style="width:100%;background-image: url(back.png);background-size: cover;padding:40px;font-weight: 800;text-align: center;padding-top:40px; ">
+        <h1 style="margin-bottom: 0px;font-weight: 800;font-family: Japa;letter-spacing: 2px;text-transform:uppercase" data-aos="zoom-in" data-aos-duration="1000"><b> THE DEJITARU TSUKA DRAGON IS HERE TO REIGN</b></h1>
+    </div>
+    <style>
+        .jsad {
+            width: 60%;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        @media (max-width:500px) {
+            .jsad {
+                width: 90%;
+            }
+        }
+    </style>
+    <div class="jsad">
+        <br /><br />
+        <p style="font-weight: 1000;font-size:25px;" data-aos="zoom-in" data-aos-duration="1000">Shiba6900 is a groundbreaking cryptocurrency project that combines the charm of the Shiba Inu meme with cutting-edge blockchain technology
+        </p>
+
+        <p style="font-size:25px; margin-top: 40px;text-transform:uppercase" data-aos="zoom-in" data-aos-duration="1000">
+
+
+            <b>
+
+
+                SHIBA6900 DRAWS INSPIRATION FROM THE LOVABLE SHIBA INU MEME, MAKING IT AN INSTANT HIT WITH DOG LOVERS AND CRYPTO ENTHUSIASTS. THE PROJECT CELEBRATES THE MEME'S CUTE AND MISCHIEVOUS NATURE.
+                <br /><br />
+                — シバ6900
+                <br /><br />
+
+            </b>
+        </p>
+    </div>
+
+    <div style="width:100%;background-image: url(back.png);background-size: cover;padding:40px;font-weight: 800;text-align: center;padding-top:40px; ">
+        <h1 style="margin-bottom: 0px;font-weight: 800;font-family: Japa;letter-spacing: 2px;text-transform:uppercase" data-aos="zoom-in" data-aos-duration="1000"><b>
+            Shiba Inu Inspiration
+
+            </b></h1>
+    </div>
+
+    <div class="jsad" style="margin: 100px 0px;    width: 100%;">
+        <p style="font-weight: 1000;font-size:25px;" data-aos="zoom-in" data-aos-duration="1000">
+            ABOUT US
+        </p>
+        <div class="jsad">
+            <p style="font-size:25px; margin-top: 40px;" data-aos="zoom-in" data-aos-duration="1000">
+
+
+                <b>
+
+
+                    Shiba6900 draws inspiration from the lovable Shiba Inu meme, making it an instant hit with dog lovers and crypto enthusiasts. The project celebrates the meme's cute and mischievous nature. <br>
+                    Shiba6900 places a strong emphasis on its community. It aims to create an inclusive and engaging environment where users can actively participate, share ideas, and contribute to the project's growth.
+
+                </b>
+            </p>
+        </div>
+
+    </div>
+
+    <div style="width:100%;background-image: url(back.png);background-size: cover;padding:40px;font-weight: 800;text-align: center;padding-top:40px; ">
+        <h1 style="margin-bottom: 0px;font-weight: 800;font-family: Japa;letter-spacing: 2px;text-transform:uppercase" data-aos="zoom-in" data-aos-duration="1000"><b style="font-size: 20px;">
+                CA: Coming<wbr/>Soon
+            </b></h1>
+    </div>
+
+    <div class="jsad" style="margin: 100px 0px;    width: 100%;">
+        <p style="font-weight: 800;font-size:25px;" data-aos="zoom-in" data-aos-duration="1000">
+            TOKENOMICS
+        </p>
+        <div class="jsad">
+            <p style="font-size:25px;" data-aos="zoom-in" data-aos-duration="1000">
+
+                "Deciphering the Shiba6900 Tokenomics"
+
+                <br /><br />
+                <b style="font-weight: 800;">Total Supply</b><br /> 100.000.000
+                <br /><br />
+
+                <b style="font-weight: 800;">Tax</b><br /> 0% <br /><br />
+
+                <b style="font-weight: 800;">Liquidity Locked</b><br /> Ownership Renounced
+            </p>
+        </div>
+    </div>
+
+
+    <div class="asdasdsasadasd" style="background-image: url(back.png);background-size: cover;">
+        <div class="container" style="margin-bottom:60px;padding:30px;">
+
+            <div class="grid-container">
+                <div class="grid-item" data-aos="zoom-in" data-aos-duration="1000" style="    z-index: 10;">
+                    <a href="https://twitter.com/">
+                        <i class="fa fa-twitter fa-4x partner_icons" aria-hidden="true"
+                            style="    text-align: center;color:black"></i>
+                    </a>
+                </div>
+                <div class="grid-item" data-aos="zoom-in" data-aos-duration="1000" style="    z-index: 10;">
+                    <a href="https://t.me/">
+                        <i class="fa fa-telegram fa-4x partner_icons" aria-hidden="true"
+                            style="    text-align: center;color:black"></i>
+                    </a>
+                </div>
+
+                <div class="grid-item" data-aos="zoom-in" data-aos-duration="1000" style="    z-index: 10;">
+                    <a href="https://medium.com/">
+                        <i class="fa fa-medium fa-4x partner_icons" aria-hidden="true"
+                            style="    text-align: center;color:black"></i>
+                    </a>
+                </div>
+                <div class="grid-item" data-aos="zoom-in" data-aos-duration="1000" style="    z-index: 10;">
+                    <a href="mailto:DejitaruTsukaOfficial@mail.com">
+                        <i class="fas fa-envelope fa-4x partner_icons" aria-hidden="true"
+                            style="    text-align: center;color:black"></i>
+                    </a>
+                </div>
+                <div class="grid-item" data-aos="zoom-in" data-aos-duration="1000" style="    z-index: 10;">
+                    <a href="https://etherscan.io/token/">
+                        <img src="dex.svg" style="width:120px">
+                    </a>
+                </div>
+                <div class="grid-item" data-aos="zoom-in" data-aos-duration="1000" style="    z-index: 10;">
+                    <a href="https://www.dextools.io/app/ether/pair-explorer//">
+                        <img src="dex1.png" style="width:120px">
+                    </a>
+                </div>
+                <div class="grid-item" data-aos="zoom-in" data-aos-duration="1000" style="    z-index: 10;">
+                    <a href='/'>
+                        <img src="coinmarket.png" style="width:120px">
+                    </a>
+                </div>
+
+                <div class="grid-item" data-aos="zoom-in" data-aos-duration="1000" style="    z-index: 10;">
+                    <a href='/'>
+                        <img src="CoinGecko%2bIcon-01%20(1).png" style="width:120px">
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <section class="container" style="padding-top:50px;padding-bottom: 20px;">
+        <center>
+            <img style="padding-top:20px;width:250px;border-radius: 50%;" src="logo.png" style="border-radius: 50%;" />
+            <p style="color:white;text-transform:uppercase">COPYRIGHT 2023 © SHIBA6900</p>
+        </center>
+
+    </section>
+
+    <footer class=" uk-section uk-padding-remove" style="background-image: url('public/frontend/images/footer_waves.png'); background-size: cover;">
+
+
+    </footer>
+
+    <script src="cdn.jsdelivr.net/npm/uikit%403.5.4/dist/js/uikit.min.js"></script>
+    <script src="cdn.jsdelivr.net/npm/uikit%403.5.4/dist/js/uikit-icons.min.js"></script>
+
+    <div class="uk-width-xlarge">
+        <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="autoplay: true; autoplay-interval: 0; velocity: 0.03; easing: linear; pause-on-hover: false; draggable: false;">
+</body>
+
+<script src="https://unpkg.com/aos%402.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+
+<!-- Mirrored from dejitarukitsune.netlify.app/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 11 Oct 2023 15:25:17 GMT -->
+
+</html>
